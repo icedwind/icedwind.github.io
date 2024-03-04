@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Argentum Sans;
+    src: url("ArgentumSans-Regular.ttf"), format(truetype);
+}
+
+@media (max-width: 1000px) {
+    .links {
+        display: block;
+    }
+}
+
+body {
+    font-family: Argentum Sans;
+    
+    /* background stuff 
+    background-image: url(bg.jpg);*/
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,106,255,1) 100%);
+    background-attachment: fixed;
+}
+
+a, a:visited {
+    text-align: center;
+    color: rgb(236, 45, 253);
+    display: block;
+}
+
+p, h1, h2, h3 {
+    text-align: center;
+    color: white;
+}
+
+.links {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5cm;
+    padding: 0.5cm;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-template-rows: 0.1fr 0.1fr;
+}
+
+.silly {
+    opacity: 0;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
