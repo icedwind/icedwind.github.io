@@ -1,6 +1,6 @@
 @font-face {
     font-family: Argentum Sans;
-    src: url("ArgentumSans-Regular.ttf"), format(truetype);
+    src: url("res/ArgentumSans-Regular.ttf"), format(truetype);
 }
 
 @media (max-width: 1000px) {
