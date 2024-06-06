@@ -3,12 +3,6 @@
     src: url("res/ArgentumSans-Regular.ttf"), format(truetype);
 }
 
-@media (max-width: 1000px) {
-    .links {
-        display: block;
-    }
-}
-
 body {
     font-family: Argentum Sans;
     
@@ -39,6 +33,12 @@ p, h1, h2, h3 {
     display: grid;
     grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
     grid-template-rows: 0.1fr 0.1fr;
+}
+
+@media (max-width: 1000px) {
+    .links {
+        display: block;
+    }
 }
 
 .silly {
