@@ -1,10 +1,7 @@
-@font-face {
-    font-family: Argentum Sans;
-    src: url("res/ArgentumSans-Regular.ttf"), format(truetype);
-}
+@import url('https://fonts.cdnfonts.com/css/argentum-sans');
 
 body {
-    font-family: Argentum Sans;
+    font-family: 'Argentum Sans', sans-serif;
     
     /* background stuff 
     background-image: url(bg.jpg);*/
